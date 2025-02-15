@@ -27,6 +27,7 @@ const RecipeList: React.FC = () => {
 
     return (
         <div className="container">
+            <h1>Recipe List</h1>
             <div className="row row-cols-1 row-cols-md-2 g-4">
                 {recipeList.map(recipe => (
                     <div key={recipe.id} className="col-md-4">
